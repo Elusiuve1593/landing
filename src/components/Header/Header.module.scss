@@ -1,3 +1,32 @@
-.header{
-    display: flex;
+.header {
+    border: 2px solid red;
+    padding: 0 30px;
+
+    &__container {
+        max-width: 1680px;
+        margin: 0 auto;
+        border: 2px solid rgb(43, 255, 0);
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+    }
+
+    &__logo {
+        color: blue;
+    }
+
+    &__menu {
+
+        &_body {}
+
+        &_list {}
+
+        &_item {}
+    }
+
+    &__auth {
+
+        &_item {}
+
+        &_link {}
+    }
 }

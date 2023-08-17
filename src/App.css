@@ -36,16 +36,18 @@ img {
   vertical-align: top;
 }
 
+/* body {
+  
+} */
+
+html,
 body {
+  height: 100%;
   color: #aaa;
+  background-color: #0C0B08;
   min-width: 320px;
   /* max-width: 1920px; */
   font-size: 16px;
   font-family: "Open Sans", Times, serif;
   line-height: 150%;
-}
-
-html,
-body {
-  height: 100%;
 }
