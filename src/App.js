@@ -9,6 +9,7 @@ const App = () => {
   return (
     <div className={App}>
       <div className={w.wrapper}>
+
         <Header />
         <main className={m.main}>
           <div className={c.container}>
