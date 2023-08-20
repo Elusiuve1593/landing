@@ -23,18 +23,14 @@
 
     &__menu {
 
-        &_body {}
-
         &_list {
             display: flex;
             flex-wrap: wrap;
             align-items: center;
             justify-content: center;
             font-size: 16px;
-
+            padding: 0 30px;
         }
-
-        &_item {}
 
         a {
             color: #fff;
@@ -56,8 +52,6 @@
         align-self: stretch;
         align-items: center;
         display: flex;
-
-        &_item {}
 
         &_link {
             color: #fff;

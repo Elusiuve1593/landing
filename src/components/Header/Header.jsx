@@ -1,9 +1,10 @@
 import { useEffect, useState } from "react";
 import s from "./Header.module.scss"
-import BurgerMenu from "./BurgerMenu/BurgerMenu";
+import { BurgerMenu } from "./BurgerMenu/BurgerMenu";
+
 
 export const Header = () => {
-    const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+    const [windowWidth, setWindowWidth] = useState(window.innerWidth)
 
     const handleResize = () => {
         setWindowWidth(window.innerWidth)
@@ -22,24 +23,22 @@ export const Header = () => {
                     Gerícht
                 </a>
 
-                {windowWidth < 767.98 ?
-                    <BurgerMenu /> : <>
+                {windowWidth < 767.98 ? <BurgerMenu />
+                    : <>
                         <div className={s.header__menu}>
-                            <nav className={s.header__menu_body}>
-                                <ul className={s.header__menu_list}>
-                                    <li className={s.header__menu_item}>
-                                        <a href="#">Home </a>
-                                        <a href="#">Pages </a>
-                                        <a href="#">Contact Us </a>
-                                        <a href="#">Blog </a>
-                                        <a href="#">Landing </a>
-                                    </li>
-                                </ul>
-                            </nav>
+                            <ul className={s.header__menu_list}>
+                                <li>
+                                    <a href="#">Home </a>
+                                    <a href="#">Pages </a>
+                                    <a href="#">Contact Us </a>
+                                    <a href="#">Blog </a>
+                                    <a href="#">Landing</a>
+                                </li>
+                            </ul>
                         </div>
 
                         <ul className={s.header__auth}>
-                            <li className={s.header__auth_item}>
+                            <li>
                                 <a href="#" className={s.header__auth_link}>
                                     Log In
                                 </a>
