@@ -20,8 +20,9 @@
 }
 
 .menu-items {
-    width: 150px;
-    font-size: large;
+    width: 250px;
+    height: 250px;
+    font-size: 27px;
     position: absolute;
     top: 40px;
     right: 35px;
@@ -31,10 +32,11 @@
     padding: 20px;
     text-decoration: none;
     display: none;
+    line-height: 30px;
 }
 
 .menu-items div {
-    margin-bottom: 5px;
+    margin-bottom: 15px;
 }
 
 .menu-items div a {

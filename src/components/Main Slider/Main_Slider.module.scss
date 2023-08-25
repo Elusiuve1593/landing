@@ -1,0 +1,66 @@
+.slide {
+    display: flex;
+    font-family: "Cormorant Upright", Times, serif;
+
+    &__content {
+        padding: 10px;
+    }
+
+    &__label {
+        font-size: 23px;
+        margin-bottom: 5px;
+    }
+
+    &__spoon {
+        width: 60px;
+    }
+
+    &__tittle {
+        font-size: 90px;
+        line-height: 100px;
+        margin-bottom: 25px;
+    }
+
+    &__text {
+        font-size: 23px;
+        margin-bottom: 30px;
+    }
+
+    &__button {
+        background-color: #DCCA87;
+        padding: 10px;
+        font-weight: 500;
+        font-size: 19px;
+        color: #000;
+    }
+
+    &__ibg {
+        min-width: 320px;
+        position: relative;
+
+        img {
+            object-fit: cover;
+            position: absolute;
+            max-height: 350px;
+            top: 10%;
+            left: 0%;
+
+            border-width: 7px 7px 0 0;
+            border-color: #DCCA87;
+            border-style: solid;
+        }
+    }
+
+    @media(max-width: 767.98px) {
+
+        &__tittle {
+            font-size: 40px;
+            line-height: 50px;
+            margin-bottom: 25px;
+        }
+
+        &__ibg {
+            display: none;
+        }
+    }
+}

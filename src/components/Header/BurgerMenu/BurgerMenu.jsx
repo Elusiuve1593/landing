@@ -18,11 +18,11 @@ export const BurgerMenu = () => {
             </button>
 
             <div className="menu-items" >
-                <div><a href="#">Log In</a></div>
                 <div><a href="#">Pages</a></div>
                 <div><a href="#">Contact Us</a></div>
                 <div><a href="#">Blog</a></div>
                 <div><a href="#">Landing</a></div>
+                <div><a href="#" style={{color: "#a34646"}}>Log In</a></div>
             </div>
 
         </div>
