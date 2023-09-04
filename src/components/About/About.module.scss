@@ -1,0 +1,66 @@
+.about {
+    font-family: "Cormorant Upright", Times, serif;
+    padding-top: 30px;
+    background: center / contain no-repeat url("../../assets/icons/g.svg");
+
+    &__section {
+        display: flex;
+        align-items: center;
+
+        @media(max-width: 767.98px) {
+            flex-direction: column;
+        }
+    }
+
+    h3 {
+        font-size: 65px;
+        padding-bottom: 30px;
+        color: #DCCA87;
+        text-align: center;
+
+        @media(max-width: 767.98px) {
+            line-height: 60px;
+        }
+    }
+
+    .spoon_container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .spoon {
+        width: 60px;
+        margin: 10px 0;
+    }
+
+    div {
+        font-size: 23px;
+        margin-bottom: 30px;
+    }
+
+    &__section-knife {
+        flex: 0 0 255px;
+        text-align: center;
+        height: 550px;
+        padding: 100px;
+    }
+
+    .button {
+        background-color: #DCCA87;
+        padding: 10px;
+        font-weight: 500;
+        font-size: 19px;
+        color: #000;
+        min-width: 119px;
+        display: inline-block;
+    }
+
+    .knife {
+        height: 550px;
+        padding: 0 30px;
+
+        @media(max-width: 767.98px) {
+            display: none;
+        }
+    }
+}

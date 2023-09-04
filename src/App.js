@@ -5,6 +5,7 @@ import c from './app/Container.module.scss';
 import { Footer } from './components/Footer/Footer';
 import { Header } from './components/Header/Header';
 import { Main_Slider } from './components/Main Slider/Main_Slider';
+import { About } from './components/About/About';
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <main className={m.main}>
           <div className={c.container}>
             <Main_Slider />
+            <About />
           </div>
         </main>
         <Footer />

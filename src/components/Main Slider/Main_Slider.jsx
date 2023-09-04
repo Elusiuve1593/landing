@@ -8,7 +8,11 @@ export const Main_Slider = () => {
             <div className={s.slide__content}>
                 <div className={s.slide__label}>Chase the new Flavour</div>
                 <div>
-                    <img className={s.slide__spoon} src={spoon}></img>
+                    <img
+                        className={s.slide__spoon}
+                        src={spoon}
+                        alt="spoon"
+                    ></img>
                 </div>
                 <div className={s.slide__tittle}>The key to fine dining</div>
                 <div className={s.slide__text}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
