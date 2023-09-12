@@ -6,6 +6,7 @@ import { Footer } from './components/Footer/Footer';
 import { Header } from './components/Header/Header';
 import { Main_Slider } from './components/Main Slider/Main_Slider';
 import { About } from './components/About/About';
+import { Bar } from './components/Bar/Bar';
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
           <div className={c.container}>
             <Main_Slider />
             <About />
+            <Bar />
           </div>
         </main>
         <Footer />
