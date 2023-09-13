@@ -1,0 +1,98 @@
+@import "../../variables/variables.scss";
+
+.container {
+    font-family: $cormorant-family;
+    display: flex;
+    background: center / cover no-repeat url("../../assets/img/BG.jpg");
+
+    &__photo {
+        max-height: 350px;
+        margin: 40% 50px 0 10px;
+
+        border-width: 0 0 7px 7px;
+        border-color: $main-hover;
+        border-style: solid;
+
+        @media(max-width: 767.98px) {
+            display: none;
+        }
+    }
+
+    &__word {
+        font-size: 27px;
+        font-weight: bold;
+        margin: 50px 0 7px 0;
+
+        @media(max-width: 767.98px) {
+            margin: 20px 0 10px 10px;
+        }
+    }
+
+    &__spoon {
+        width: 60px;
+
+        @media(max-width: 767.98px) {
+            margin: 5px 0 0 10px;
+        }
+    }
+
+    &__header {
+        font-size: 70px;
+        color: $main-hover;
+        margin: 50px 0 60px 0;
+
+        @media(max-width: 991.98px) {
+            line-height: 70px;
+        }
+
+        @media(max-width: 767.98px) {
+            margin: 10px;
+            font-size: 60px;
+            line-height: 50px;
+        }
+    }
+
+    &__text {
+        font-size: 23px;
+        margin: 0 30px 50px 0;
+        line-height: 40px;
+
+        @media(max-width: 767.98px) {
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+    }
+
+    &__quote {
+        width: 30px;
+        margin-right: 10px;
+    }
+
+    &__name {
+        font-size: 27px;
+        color: $main-hover;
+        margin-bottom: 7px;
+
+        @media(max-width: 767.98px) {
+            margin: 10px;
+        }
+    }
+
+    &__job {
+        font-size: 16px;
+        font-family: 'Times New Roman', Times, serif;
+        margin-bottom: 40px;
+
+        @media(max-width: 767.98px) {
+            margin: 10px;
+        }
+    }
+
+    &__signature {
+        margin: 0 0 15px -15px;
+
+        @media(max-width: 767.98px) {
+            margin: 10px;
+        }
+    }
+}

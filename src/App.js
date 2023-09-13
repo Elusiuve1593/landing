@@ -7,6 +7,8 @@ import { Header } from './components/Header/Header';
 import { Main_Slider } from './components/Main Slider/Main_Slider';
 import { About } from './components/About/About';
 import { Bar } from './components/Bar/Bar';
+import { Kevin_Luo } from './components/Kevin_Luo/Kevin_Luo';
+import { Happy_hours } from './components/Happy_hours/Happy_hours';
 
 const App = () => {
   return (
@@ -18,6 +20,8 @@ const App = () => {
             <Main_Slider />
             <About />
             <Bar />
+            <Kevin_Luo />
+            <Happy_hours />
           </div>
         </main>
         <Footer />

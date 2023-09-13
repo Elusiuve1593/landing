@@ -1,11 +1,15 @@
+@import "../../variables/variables.scss";
+
 .about {
-    font-family: "Cormorant Upright", Times, serif;
+    font-family: $cormorant-family;
     padding-top: 30px;
     background: center / contain no-repeat url("../../assets/icons/g.svg");
+    background: url("../../assets/img/BG.jpg") center / cover no-repeat;
 
     &__section {
         display: flex;
         align-items: center;
+        background: center / contain no-repeat url("../../assets/icons/g.svg");
 
         @media(max-width: 767.98px) {
             flex-direction: column;
@@ -21,11 +25,19 @@
         @media(max-width: 767.98px) {
             line-height: 60px;
         }
+
+        @media(max-width: 991.98px) {
+            line-height: 60px;
+        }
     }
 
     .spoon_container {
         display: flex;
         justify-content: center;
+    }
+
+    .about__section_text {
+        padding: 0 9px;
     }
 
     .spoon {
@@ -49,6 +61,7 @@
         text-align: center;
         background-color: #DCCA87;
         padding: 10px;
+        margin: 0 9px;
         font-weight: 500;
         font-size: 19px;
         color: #000;
@@ -57,7 +70,7 @@
     }
 
     .knife {
-        height: 550px;
+        height: 500px;
         padding: 0 30px;
 
         @media(max-width: 767.98px) {

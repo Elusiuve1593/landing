@@ -1,6 +1,8 @@
+@import "../../variables/variables.scss";
+
 .slide {
     display: flex;
-    font-family: "Cormorant Upright", Times, serif;
+    font-family: $cormorant-family;
 
     &__content {
         padding: 10px;
@@ -19,7 +21,7 @@
         font-size: 90px;
         line-height: 100px;
         margin-bottom: 25px;
-        color: #DCCA87;
+        color: $main-hover;
     }
 
     &__text {
@@ -28,7 +30,9 @@
     }
 
     &__button {
-        background-color: #DCCA87;
+        display: inline-block;
+        margin-bottom: 10px;
+        background-color: $main-hover;
         padding: 10px;
         font-weight: 500;
         font-size: 19px;
@@ -47,8 +51,13 @@
             left: 0%;
 
             border-width: 7px 7px 0 0;
-            border-color: #DCCA87;
+            border-color: $main-hover;
             border-style: solid;
+
+            @media(min-width: 1330px) {
+                top: -3%;
+                max-height: 300px;
+            }
         }
     }
 

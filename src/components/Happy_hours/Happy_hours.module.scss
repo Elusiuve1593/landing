@@ -1,0 +1,30 @@
+@import "../../variables/variables.scss";
+
+.main_container {
+    font-family: $cormorant-family;
+    background: center / cover no-repeat no-repeat url(../../assets/img/happy_hours.png);
+    min-height: 450px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    @media(max-width: 767.98px) {
+        background: none;
+    }
+
+    &__header {
+        font-size: 80px;
+        color: $main-hover;
+        margin-bottom: 50px;
+
+        @media(max-width: 767.98px) {
+            line-height: 70px;
+        }
+    }
+
+    &__hours {
+        font-size: 23px;
+        font-weight: bold;
+    }
+}

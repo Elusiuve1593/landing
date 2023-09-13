@@ -15,7 +15,7 @@ export const About = () => {
                             alt="spoon"
                         />
                     </div>
-                    <div>
+                    <div className={s.about__section_text}>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra adipiscing ultrices vulputate posuere tristique. In sed odio nec aliquet eu proin mauris et.
                     </div>
                     <a href="#" className={s.button}>Know more</a>
