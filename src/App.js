@@ -9,6 +9,8 @@ import { About } from './components/About/About';
 import { Bar } from './components/Bar/Bar';
 import { Kevin_Luo } from './components/Kevin_Luo/Kevin_Luo';
 import { Happy_hours } from './components/Happy_hours/Happy_hours';
+import { Happy_customers } from './components/Happy_customers/Happy_customers';
+import { Subscription } from './components/Subscription/Subscription';
 
 const App = () => {
   return (
@@ -22,6 +24,8 @@ const App = () => {
             <Bar />
             <Kevin_Luo />
             <Happy_hours />
+            <Happy_customers />
+            <Subscription />
           </div>
         </main>
         <Footer />

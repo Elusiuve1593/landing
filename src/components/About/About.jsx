@@ -36,7 +36,7 @@ export const About = () => {
                             alt="spoon"
                         />
                     </div>
-                    <div>
+                    <div className={s.about__section_text}>
                         Adipiscing tempus ullamcorper lobortis odio tellus arcu volutpat. Risus placerat morbi volutpat habitasse interdum mi aliquam In sed odio nec aliquet.
                     </div>
                     <a href="#" className={s.button}>Know more</a>

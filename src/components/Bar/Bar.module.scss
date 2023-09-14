@@ -11,10 +11,21 @@
 
     &__logo {
         width: 90px;
-        margin: 30px;
+        margin: 17px;
+        animation: rotate 7s linear infinite;
+
+        @keyframes rotate {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
 
         @media(max-width: 767.98px) {
-            margin: 0;
+            margin: 20px;
             margin-bottom: 70px;
         }
     }
@@ -23,6 +34,7 @@
         display: flex;
         flex-direction: column;
         max-width: 160px;
+
         @media(max-width: 767.98px) {
             margin: 0 auto;
         }
@@ -45,6 +57,7 @@
         &:hover {
             text-decoration: underline;
         }
+
         @media(max-width: 767.98px) {
             margin: 0;
         }

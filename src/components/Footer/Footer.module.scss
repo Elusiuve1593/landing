@@ -1,3 +1,87 @@
+@import "../../variables/variables.scss";
+
 .footer {
+    font-family: $cormorant-family;
     flex-shrink: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    text-align: center;
+    padding: 30px;
+    max-width: 1680px;
+    margin: 0 auto;
+
+    @media(max-width: 767.98px) {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.contacts {
+    margin: 10px;
+
+    &__head {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+
+    &__text {
+        font-size: 16px;
+        font-family: "Times New Roman", Times, serif;
+    }
+
+    &__phone {
+        font-size: 15px;
+        font-family: "Times New Roman", Times, serif;
+    }
+}
+
+
+.general_information {
+
+    &__head {
+        color: $main-hover;
+        font-family: $cormorant-family;
+        text-transform: uppercase;
+        font-weight: 700;
+        line-height: 130%;
+        font-size: 44px;
+    }
+
+    &__text {
+        font-size: 18px;
+        font-family: "Times New Roman", Times, serif;
+    }
+
+    &__spoon {
+        margin: 7px 0 10px 0;
+        width: 60px;
+    }
+
+    &__logos {
+        padding: 10px;
+    }
+
+    &__logo {
+        margin-left: 15px;
+    }
+}
+
+.working_hours {
+    &__head {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+
+    &__text {
+        font-size: 16px;
+        font-family: "Times New Roman", Times, serif;
+    }
+}
+
+.rights {
+    padding-bottom: 35px;
+    font-size: 19px;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
 }
