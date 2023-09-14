@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/landing/static/css/main.560fab4d.css",
+    "main.js": "/landing/static/js/main.54849441.js",
+    "static/js/787.28525a86.chunk.js": "/landing/static/js/787.28525a86.chunk.js",
+    "static/media/happy_hours.png": "/landing/static/media/happy_hours.730ca85586849fb9cba8.png",
+    "static/media/BG.jpg": "/landing/static/media/BG.4f991a7868febdc563d3.jpg",
+    "static/media/alcohol.jpg": "/landing/static/media/alcohol.2d94bc380bddd72fd282.jpg",
+    "static/media/joseph-gonzalez.jpg": "/landing/static/media/joseph-gonzalez.645ca6942fd51a4f873a.jpg",
+    "static/media/kevin.jpg": "/landing/static/media/kevin.da8be1a3d7be225bd322.jpg",
+    "static/media/knife.png": "/landing/static/media/knife.e6bb1f86ee644f8ea739.png",
+    "static/media/Jane.png": "/landing/static/media/Jane.70cac05ede9fe145ff08.png",
+    "static/media/Robert.png": "/landing/static/media/Robert.4a2f13dbaaf452923b05.png",
+    "static/media/Brooklin.png": "/landing/static/media/Brooklin.18caaa12c6ca58310c2d.png",
+    "static/media/Wade.png": "/landing/static/media/Wade.0b25d9245c5c80869cfd.png",
+    "static/media/main-decor.svg": "/landing/static/media/main-decor.9a520d1ec4cb090d4f9b79cb843eaa88.svg",
+    "static/media/kevin-luo.svg": "/landing/static/media/kevin-luo.bea0b7a4a0242ed41d4101f78591bb5c.svg",
+    "static/media/twitter.svg": "/landing/static/media/twitter.a2622285457098980391176ecd5b7cfa.svg",
+    "static/media/instagram.svg": "/landing/static/media/instagram.92c25f4aea8793df95cb5ad7dabe807a.svg",
+    "static/media/g.svg": "/landing/static/media/g.6a98913c74bb960a0911.svg",
+    "static/media/quote.svg": "/landing/static/media/quote.0fd8154f721e461d5569aa1ed674fcbf.svg",
+    "static/media/spoon.svg": "/landing/static/media/spoon.aff8899475b2591cd3932387938b6764.svg",
+    "index.html": "/landing/index.html",
+    "static/media/facebook.svg": "/landing/static/media/facebook.70912413606f55a2996d338857ad1866.svg",
+    "main.560fab4d.css.map": "/landing/static/css/main.560fab4d.css.map",
+    "main.54849441.js.map": "/landing/static/js/main.54849441.js.map",
+    "787.28525a86.chunk.js.map": "/landing/static/js/787.28525a86.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.560fab4d.css",
+    "static/js/main.54849441.js"
+  ]
+}
